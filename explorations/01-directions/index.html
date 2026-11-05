@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Howl round 01: directions</title>
+  <style>
+    :root { --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font: 400 16px/1.5 system-ui, sans-serif; color: #111111; background: #F2F2F2; padding: var(--s6) var(--s4) var(--s8); }
+    :focus-visible { outline: 3px solid #111111; outline-offset: 2px; }
+    h1 { font-size: 32px; line-height: 1.25; margin-bottom: var(--s2); }
+    .lead { color: #444444; margin-bottom: var(--s7); max-width: 60ch; }
+    section { margin-bottom: var(--s8); }
+    h2 { font-size: 20px; line-height: 1.5; }
+    .sum { color: #444444; max-width: 60ch; margin-bottom: var(--s4); }
+    .row { display: flex; flex-wrap: wrap; gap: var(--s5); align-items: flex-start; }
+    figure { display: flex; flex-direction: column; gap: var(--s2); }
+    figcaption { font-size: 14px; color: #444444; }
+    .phone { width: 392px; height: 782px; border: 1px solid #BBBBBB; background: #FFFFFF; }
+    .phone iframe { width: 390px; height: 780px; border: 0; display: block; }
+    .laptop { width: 768px; height: 482px; border: 1px solid #BBBBBB; background: #FFFFFF; overflow: hidden; }
+    .laptop iframe { width: 1280px; height: 800px; border: 0; transform: scale(0.6); transform-origin: top left; display: block; }
+    a { color: #0B4FB3; }
+  </style>
+</head>
+<body>
+  <h1>Howl round 01: directions</h1>
+  <p class="lead">Three ways Howl's home screen could look. Each uses #CC0000 for buttons and the Howl button. Reply and Pack numbers are sample data.</p>
+
+  <section>
+    <h2>A · Bellow</h2>
+    <p class="sum">White and quiet, with every post set in heavy type so it reads like a shout. Borrows Threads' text-first feed and Bluesky's tabs and round write button.</p>
+    <div class="row">
+      <figure><div class="phone"><iframe src="a.html" title="Direction A at phone size"></iframe></div><figcaption>Phone</figcaption></figure>
+      <figure><div class="laptop"><iframe src="a.html" title="Direction A at laptop size"></iframe></div><figcaption>Laptop · <a href="a.html">Open full size</a></figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>B · Roll Call</h2>
+    <p class="sum">True black and dense, with the place name leading every post as a headline. Borrows X's tight rows and Instagram's row of circles, here used to pick a place.</p>
+    <div class="row">
+      <figure><div class="phone"><iframe src="b.html" title="Direction B at phone size"></iframe></div><figcaption>Phone</figcaption></figure>
+      <figure><div class="laptop"><iframe src="b.html" title="Direction B at laptop size"></iframe></div><figcaption>Laptop · <a href="b.html">Open full size</a></figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>C · After Hours</h2>
+    <p class="sum">Deep navy with warm cream cards, where short posts are set big and long ones shrink to reading size. Borrows Tumblr's cards and Follow button and Instagram's small bold names.</p>
+    <div class="row">
+      <figure><div class="phone"><iframe src="c.html" title="Direction C at phone size"></iframe></div><figcaption>Phone</figcaption></figure>
+      <figure><div class="laptop"><iframe src="c.html" title="Direction C at laptop size"></iframe></div><figcaption>Laptop · <a href="c.html">Open full size</a></figcaption></figure>
+    </div>
+  </section>
+</body>
+</html>
